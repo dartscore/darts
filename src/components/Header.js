@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
 class Header extends Component {
+
+  
   render() {
     return (
       <header className="header">
-        <h1>Darts App</h1>
+        <h1>Darts</h1>
       </header>
     );
   }
