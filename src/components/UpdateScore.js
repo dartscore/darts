@@ -29,7 +29,7 @@ class UpdateScore extends Component {
 
 
         <div className="form__row">
-          <button type="button" className="btn btn--circle" onClick={this.handleUndo}>↩&#xFE0E</button>
+          <button type="button" className="btn btn--circle" onClick={this.handleUndo}>↩&#xFE0E;</button>
           <div className="update-score">
             <label htmlFor="amountScored" className="form__label">Score</label>
             <input id="amountScored" ref={function(input) {
