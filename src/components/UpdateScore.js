@@ -35,6 +35,7 @@ class UpdateScore extends Component {
             <input id="amountScored" ref={function(input) {
             if (input != null) {
               input.focus();
+              document.body.scrollTop = 0; //scrolls to top when iOS soft keyboard is shown
             }
           }} type="number" placeholder="0"
               min={this.props.min}
