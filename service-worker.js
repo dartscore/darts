@@ -24,7 +24,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["favicon.ico","fd73a6eb26a08ee46e7fd3cc34e7f6bf"],["index.html","064e49c5346bd592caa72f416298a0fa"],["manifest.json","af909a36a86740f36852fbe5d56cc432"],["static/css/main.6bb39c18.css","86b15455446006dbf6959e0d816b70c1"],["static/js/main.107b0d5c.js","895b92d45c2fbc3f44ec3e74ea7e3103"]];
+var precacheConfig = [["android-chrome-192x192.png","d39331160decc3d90f19ed7d6f857d19"],["android-chrome-512x512.png","66cf24db22fde1b73f87c50dc3b623f1"],["apple-touch-icon.png","094b749c5760ec8cab7587e11717568c"],["browserconfig.xml","20e82c2e4ded6d907a7da8781a8f6d5f"],["favicon-16x16.png","b2a941792abb3974a6279dcb81bef8bc"],["favicon-32x32.png","f3ede304cc04a6ce8593955f998da2fb"],["favicon.ico","36640b8e6d0a47e6717e86efd13fa904"],["index.html","289f39249484236d4f9888a6bd49a093"],["manifest.json","716cf67774f47e50bf81458abaa816bc"],["mstile-150x150.png","a12b71e3d02dc0245a733f451bd18aef"],["safari-pinned-tab.svg","68bede264eb9fafbaed3b3905867394b"],["static/css/main.6bb39c18.css","86b15455446006dbf6959e0d816b70c1"],["static/js/main.b0f836a0.js","5a4cd1701481b520ec9370395086ed7b"]];
 var cacheName = 'sw-precache-v2-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
