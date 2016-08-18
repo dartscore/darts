@@ -13,12 +13,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp manifest.json build/ && sw-precache --root='build/' --static-file-globs='build/**/!(*map*)'",
+    "build": "react-scripts build && cp {manifest.json,android-chrome-192x192.png,android-chrome-512x512.png,apple-touch-icon.png,browserconfig.xml,favicon-16x16.png,favicon-32x32.png,mstile-150x150.png,safari-pinned-tab.svg} build/ && sw-precache --root='build/' --static-file-globs='build/**/!(*map*)'",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
   },
-  "homepage": "https://matthewbeta.github.io/darts"
+  "homepage": "https://dartscore.github.io/"
 }
